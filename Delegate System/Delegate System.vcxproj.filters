@@ -13,10 +13,66 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Files">
+      <UniqueIdentifier>{a7e2ba4f-7efc-423e-a999-873d18c1275a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Examples">
+      <UniqueIdentifier>{b7eb9a54-dd8c-4eb1-9b9e-9a6cc2edf5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Examples\Core">
+      <UniqueIdentifier>{7cb843ff-d40a-47cc-a23f-9a054d4e279c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Examples\Core\GameFramework">
+      <UniqueIdentifier>{d7a9aee8-d1fd-4b53-b1cf-2954652a5929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Examples\Core\Project">
+      <UniqueIdentifier>{5cb267fe-2f9c-4228-ac5e-e6c3e984ef9b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Delegate System.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Examples\Core\GameFramework\Actor.cpp">
+      <Filter>Source Files\Examples\Core\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\Core\GameFramework\Pawn.cpp">
+      <Filter>Source Files\Examples\Core\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\Core\Project\Player.cpp">
+      <Filter>Source Files\Examples\Core\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\Core\Project\Weapon.cpp">
+      <Filter>Source Files\Examples\Core\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\Core\Project\Enemy.cpp">
+      <Filter>Source Files\Examples\Core\Project</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Files\DelegateBase.h">
+      <Filter>Source Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\DynamicDelegate.h">
+      <Filter>Source Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\Core\GameFramework\Actor.h">
+      <Filter>Source Files\Examples\Core\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\Core\GameFramework\Pawn.h">
+      <Filter>Source Files\Examples\Core\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\Core\Project\Player.h">
+      <Filter>Source Files\Examples\Core\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\Core\Project\Weapon.h">
+      <Filter>Source Files\Examples\Core\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\Core\CoreMinimal.h">
+      <Filter>Source Files\Examples\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\Core\Project\Enemy.h">
+      <Filter>Source Files\Examples\Core\Project</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

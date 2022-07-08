@@ -106,6 +106,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Examples/Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,7 +152,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Delegate System.cpp" />
+    <ClCompile Include="Examples\Core\GameFramework\Actor.cpp" />
+    <ClCompile Include="Examples\Core\GameFramework\Pawn.cpp" />
+    <ClCompile Include="Examples\Core\Project\Enemy.cpp" />
+    <ClCompile Include="Examples\Core\Project\Player.cpp" />
+    <ClCompile Include="Examples\Core\Project\Weapon.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Examples\Core\CoreMinimal.h" />
+    <ClInclude Include="Examples\Core\GameFramework\Actor.h" />
+    <ClInclude Include="Examples\Core\GameFramework\Pawn.h" />
+    <ClInclude Include="Examples\Core\Project\Enemy.h" />
+    <ClInclude Include="Examples\Core\Project\Player.h" />
+    <ClInclude Include="Examples\Core\Project\Weapon.h" />
+    <ClInclude Include="Files\DelegateBase.h" />
+    <ClInclude Include="Files\DynamicDelegate.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
